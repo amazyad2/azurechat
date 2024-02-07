@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'taochat'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E7E5AF44910946C08046069A48D8EE43 }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
